@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14352ACD1D70FF6000175672 /* input.16.wav in Copy Files */ = {isa = PBXBuildFile; fileRef = 14352ACC1D70FF5900175672 /* input.16.wav */; };
+		14352AD01D71073F00175672 /* tell_me_anythinggood.wav in Copy Files */ = {isa = PBXBuildFile; fileRef = 14352ACF1D71072000175672 /* tell_me_anythinggood.wav */; };
+		14352AD21D71089300175672 /* tellmegood.wav in Copy Files */ = {isa = PBXBuildFile; fileRef = 14352AD11D71088E00175672 /* tellmegood.wav */; };
+		14352AD41D7109A300175672 /* TelosZing.wav in Copy Files */ = {isa = PBXBuildFile; fileRef = 14352AD31D71099E00175672 /* TelosZing.wav */; };
+		14352AD61D71765800175672 /* TelosZingExtend.wav in Copy Files */ = {isa = PBXBuildFile; fileRef = 14352AD51D71759E00175672 /* TelosZingExtend.wav */; };
+		14352ADA1D76C0C400175672 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149DC0461D64368000FEAC56 /* Foundation.framework */; };
+		1486851C1D780F8A001751AB /* HOLD.gif in Copy Files */ = {isa = PBXBuildFile; fileRef = 1486851B1D780F82001751AB /* HOLD.gif */; };
+		1486851E1D78103E001751AB /* RING.gif in Copy Files */ = {isa = PBXBuildFile; fileRef = 1486851D1D781038001751AB /* RING.gif */; };
+		148685201D781314001751AB /* RING2.gif in Copy Files */ = {isa = PBXBuildFile; fileRef = 1486851F1D781301001751AB /* RING2.gif */; };
+		148685221D781536001751AB /* ZASp_A.gif in Copy Files */ = {isa = PBXBuildFile; fileRef = 148685211D781531001751AB /* ZASp_A.gif */; };
+		148685241D795E17001751AB /* RING3.gif in Copy Files */ = {isa = PBXBuildFile; fileRef = 148685231D795E13001751AB /* RING3.gif */; };
+		148685261D79F2B3001751AB /* Ring4sm.gif in Copy Files */ = {isa = PBXBuildFile; fileRef = 148685251D79F2AE001751AB /* Ring4sm.gif */; };
+		148685281D7BC98D001751AB /* Ring4sm@2x.gif in Copy Files */ = {isa = PBXBuildFile; fileRef = 148685271D7BC930001751AB /* Ring4sm@2x.gif */; };
+		1486852A1D7F3779001751AB /* IDLE.png in Copy Files */ = {isa = PBXBuildFile; fileRef = 148685291D7F3774001751AB /* IDLE.png */; };
+		1486852C1D7F378E001751AB /* IDLE_sm.png in Copy Files */ = {isa = PBXBuildFile; fileRef = 1486852B1D7F3789001751AB /* IDLE_sm.png */; };
+		149DBFAD1D61C30D00FEAC56 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149DBFA71D61C30D00FEAC56 /* AudioToolbox.framework */; };
+		149DBFAE1D61C30D00FEAC56 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149DBFA81D61C30D00FEAC56 /* AudioUnit.framework */; };
+		149DBFAF1D61C30D00FEAC56 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149DBFA91D61C30D00FEAC56 /* CoreAudio.framework */; };
+		149DBFB01D61C30D00FEAC56 /* CoreAudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149DBFAA1D61C30D00FEAC56 /* CoreAudioKit.framework */; };
+		149DBFB11D61C30D00FEAC56 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149DBFAB1D61C30D00FEAC56 /* CoreFoundation.framework */; };
+		149DBFB21D61C30D00FEAC56 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149DBFAC1D61C30D00FEAC56 /* IOKit.framework */; };
+		149DC04A1D66DBCA00FEAC56 /* SLAccount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 149DC0481D66DBCA00FEAC56 /* SLAccount.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		149DC04D1D66DE0A00FEAC56 /* SLCall.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 149DC04B1D66DE0A00FEAC56 /* SLCall.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		149DC0511D66EB5E00FEAC56 /* SLMasterControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 149DC04F1D66EB5E00FEAC56 /* SLMasterControl.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		149DC0541D66EDBB00FEAC56 /* SLSipApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 149DC0521D66EDBB00FEAC56 /* SLSipApp.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		149DC0571D66EE6800FEAC56 /* SLSipFrame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 149DC0551D66EE6800FEAC56 /* SLSipFrame.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		149DC05A1D66F41C00FEAC56 /* SLCallLinePanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 149DC0581D66F41C00FEAC56 /* SLCallLinePanel.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		149DBF9B1D61C07C00FEAC56 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				1486852C1D7F378E001751AB /* IDLE_sm.png in Copy Files */,
+				1486852A1D7F3779001751AB /* IDLE.png in Copy Files */,
+				148685281D7BC98D001751AB /* Ring4sm@2x.gif in Copy Files */,
+				148685261D79F2B3001751AB /* Ring4sm.gif in Copy Files */,
+				148685241D795E17001751AB /* RING3.gif in Copy Files */,
+				148685221D781536001751AB /* ZASp_A.gif in Copy Files */,
+				148685201D781314001751AB /* RING2.gif in Copy Files */,
+				1486851E1D78103E001751AB /* RING.gif in Copy Files */,
+				1486851C1D780F8A001751AB /* HOLD.gif in Copy Files */,
+				14352AD61D71765800175672 /* TelosZingExtend.wav in Copy Files */,
+				14352AD41D7109A300175672 /* TelosZing.wav in Copy Files */,
+				14352AD21D71089300175672 /* tellmegood.wav in Copy Files */,
+				14352AD01D71073F00175672 /* tell_me_anythinggood.wav in Copy Files */,
+				14352ACD1D70FF6000175672 /* input.16.wav in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		14352ACC1D70FF5900175672 /* input.16.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = input.16.wav; sourceTree = "<group>"; };
+		14352ACF1D71072000175672 /* tell_me_anythinggood.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tell_me_anythinggood.wav; sourceTree = "<group>"; };
+		14352AD11D71088E00175672 /* tellmegood.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tellmegood.wav; sourceTree = "<group>"; };
+		14352AD31D71099E00175672 /* TelosZing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = TelosZing.wav; sourceTree = "<group>"; };
+		14352AD51D71759E00175672 /* TelosZingExtend.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = TelosZingExtend.wav; sourceTree = "<group>"; };
+		14352AD71D755E6E00175672 /* EventID.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = EventID.hpp; sourceTree = "<group>"; };
+		1486851B1D780F82001751AB /* HOLD.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = HOLD.gif; sourceTree = "<group>"; };
+		1486851D1D781038001751AB /* RING.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = RING.gif; sourceTree = "<group>"; };
+		1486851F1D781301001751AB /* RING2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = RING2.gif; sourceTree = "<group>"; };
+		148685211D781531001751AB /* ZASp_A.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ZASp_A.gif; sourceTree = "<group>"; };
+		148685231D795E13001751AB /* RING3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = RING3.gif; sourceTree = "<group>"; };
+		148685251D79F2AE001751AB /* Ring4sm.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Ring4sm.gif; sourceTree = "<group>"; };
+		148685271D7BC930001751AB /* Ring4sm@2x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Ring4sm@2x.gif"; sourceTree = "<group>"; };
+		148685291D7F3774001751AB /* IDLE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IDLE.png; sourceTree = "<group>"; };
+		1486852B1D7F3789001751AB /* IDLE_sm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IDLE_sm.png; sourceTree = "<group>"; };
+		149DBF9D1D61C07C00FEAC56 /* PJDev */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PJDev; sourceTree = BUILT_PRODUCTS_DIR; };
+		149DBFA71D61C30D00FEAC56 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		149DBFA81D61C30D00FEAC56 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		149DBFA91D61C30D00FEAC56 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		149DBFAA1D61C30D00FEAC56 /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
+		149DBFAB1D61C30D00FEAC56 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		149DBFAC1D61C30D00FEAC56 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		149DC0461D64368000FEAC56 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		149DC0481D66DBCA00FEAC56 /* SLAccount.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SLAccount.cpp; sourceTree = "<group>"; };
+		149DC0491D66DBCA00FEAC56 /* SLAccount.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SLAccount.hpp; sourceTree = "<group>"; };
+		149DC04B1D66DE0A00FEAC56 /* SLCall.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SLCall.cpp; sourceTree = "<group>"; };
+		149DC04C1D66DE0A00FEAC56 /* SLCall.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SLCall.hpp; sourceTree = "<group>"; };
+		149DC04E1D66EA1900FEAC56 /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		149DC04F1D66EB5E00FEAC56 /* SLMasterControl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SLMasterControl.cpp; sourceTree = "<group>"; };
+		149DC0501D66EB5E00FEAC56 /* SLMasterControl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SLMasterControl.hpp; sourceTree = "<group>"; };
+		149DC0521D66EDBB00FEAC56 /* SLSipApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SLSipApp.cpp; sourceTree = "<group>"; };
+		149DC0531D66EDBB00FEAC56 /* SLSipApp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SLSipApp.hpp; sourceTree = "<group>"; };
+		149DC0551D66EE6800FEAC56 /* SLSipFrame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SLSipFrame.cpp; sourceTree = "<group>"; };
+		149DC0561D66EE6800FEAC56 /* SLSipFrame.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SLSipFrame.hpp; sourceTree = "<group>"; };
+		149DC0581D66F41C00FEAC56 /* SLCallLinePanel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SLCallLinePanel.cpp; sourceTree = "<group>"; };
+		149DC0591D66F41C00FEAC56 /* SLCallLinePanel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SLCallLinePanel.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		149DBF9A1D61C07C00FEAC56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14352ADA1D76C0C400175672 /* Foundation.framework in Frameworks */,
+				149DBFAD1D61C30D00FEAC56 /* AudioToolbox.framework in Frameworks */,
+				149DBFAE1D61C30D00FEAC56 /* AudioUnit.framework in Frameworks */,
+				149DBFAF1D61C30D00FEAC56 /* CoreAudio.framework in Frameworks */,
+				149DBFB01D61C30D00FEAC56 /* CoreAudioKit.framework in Frameworks */,
+				149DBFB11D61C30D00FEAC56 /* CoreFoundation.framework in Frameworks */,
+				149DBFB21D61C30D00FEAC56 /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14352AC51D70EA0500175672 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1486851B1D780F82001751AB /* HOLD.gif */,
+				148685211D781531001751AB /* ZASp_A.gif */,
+				148685271D7BC930001751AB /* Ring4sm@2x.gif */,
+				148685251D79F2AE001751AB /* Ring4sm.gif */,
+				148685291D7F3774001751AB /* IDLE.png */,
+				1486852B1D7F3789001751AB /* IDLE_sm.png */,
+				148685231D795E13001751AB /* RING3.gif */,
+				1486851F1D781301001751AB /* RING2.gif */,
+				1486851D1D781038001751AB /* RING.gif */,
+				14352ACC1D70FF5900175672 /* input.16.wav */,
+				14352ACF1D71072000175672 /* tell_me_anythinggood.wav */,
+				14352AD11D71088E00175672 /* tellmegood.wav */,
+				14352AD31D71099E00175672 /* TelosZing.wav */,
+				14352AD51D71759E00175672 /* TelosZingExtend.wav */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		149DBF941D61C07C00FEAC56 = {
+			isa = PBXGroup;
+			children = (
+				14352AC51D70EA0500175672 /* Resources */,
+				149DBF9F1D61C07C00FEAC56 /* PJDev */,
+				149DBF9E1D61C07C00FEAC56 /* Products */,
+				149DBFAA1D61C30D00FEAC56 /* CoreAudioKit.framework */,
+				149DC0461D64368000FEAC56 /* Foundation.framework */,
+				149DBFA71D61C30D00FEAC56 /* AudioToolbox.framework */,
+				149DBFA81D61C30D00FEAC56 /* AudioUnit.framework */,
+				149DBFA91D61C30D00FEAC56 /* CoreAudio.framework */,
+				149DBFAB1D61C30D00FEAC56 /* CoreFoundation.framework */,
+				149DBFAC1D61C30D00FEAC56 /* IOKit.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		149DBF9E1D61C07C00FEAC56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				149DBF9D1D61C07C00FEAC56 /* PJDev */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		149DBF9F1D61C07C00FEAC56 /* PJDev */ = {
+			isa = PBXGroup;
+			children = (
+				149DC0531D66EDBB00FEAC56 /* SLSipApp.hpp */,
+				149DC0521D66EDBB00FEAC56 /* SLSipApp.cpp */,
+				149DC0561D66EE6800FEAC56 /* SLSipFrame.hpp */,
+				149DC0551D66EE6800FEAC56 /* SLSipFrame.cpp */,
+				149DC0591D66F41C00FEAC56 /* SLCallLinePanel.hpp */,
+				149DC0581D66F41C00FEAC56 /* SLCallLinePanel.cpp */,
+				149DC04E1D66EA1900FEAC56 /* Singleton.h */,
+				149DC0501D66EB5E00FEAC56 /* SLMasterControl.hpp */,
+				149DC04F1D66EB5E00FEAC56 /* SLMasterControl.cpp */,
+				149DC0491D66DBCA00FEAC56 /* SLAccount.hpp */,
+				149DC0481D66DBCA00FEAC56 /* SLAccount.cpp */,
+				149DC04C1D66DE0A00FEAC56 /* SLCall.hpp */,
+				149DC04B1D66DE0A00FEAC56 /* SLCall.cpp */,
+				14352AD71D755E6E00175672 /* EventID.hpp */,
+			);
+			path = PJDev;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		149DBF9C1D61C07C00FEAC56 /* PJDev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 149DBFA41D61C07C00FEAC56 /* Build configuration list for PBXNativeTarget "PJDev" */;
+			buildPhases = (
+				149DBF991D61C07C00FEAC56 /* Sources */,
+				149DBF9A1D61C07C00FEAC56 /* Frameworks */,
+				149DBF9B1D61C07C00FEAC56 /* Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PJDev;
+			productName = PJDev;
+			productReference = 149DBF9D1D61C07C00FEAC56 /* PJDev */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		149DBF951D61C07C00FEAC56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Sean Leonard";
+				TargetAttributes = {
+					149DBF9C1D61C07C00FEAC56 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 149DBF981D61C07C00FEAC56 /* Build configuration list for PBXProject "PJDev" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 149DBF941D61C07C00FEAC56;
+			productRefGroup = 149DBF9E1D61C07C00FEAC56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				149DBF9C1D61C07C00FEAC56 /* PJDev */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		149DBF991D61C07C00FEAC56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				149DC0541D66EDBB00FEAC56 /* SLSipApp.cpp in Sources */,
+				149DC05A1D66F41C00FEAC56 /* SLCallLinePanel.cpp in Sources */,
+				149DC0511D66EB5E00FEAC56 /* SLMasterControl.cpp in Sources */,
+				149DC04D1D66DE0A00FEAC56 /* SLCall.cpp in Sources */,
+				149DC04A1D66DBCA00FEAC56 /* SLAccount.cpp in Sources */,
+				149DC0571D66EE6800FEAC56 /* SLSipFrame.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		149DBFA21D61C07C00FEAC56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		149DBFA31D61C07C00FEAC56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		149DBFA51D61C07C00FEAC56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"wxUSE_ANIMATIONCTRL=1",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../pjproject/pjsip/include",
+					"\"$(SRCROOT)/../pjproject/pjlib/include\"",
+					"\"$(SRCROOT)/../pjproject/pjlib-util/include\"",
+					"\"$(SRCROOT)/../pjproject/pjmedia/include\"",
+					"\"$(SRCROOT)/../pjproject/pjnath/include\"",
+					"\"$(SRCROOT)/../pjproject/pjsip/include\"",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/../pjproject/pjsip/lib",
+					"\"$(SRCROOT)/../pjproject/pjlib/lib\"",
+					"\"$(SRCROOT)/../pjproject/pjlib-util/lib\"",
+					"\"$(SRCROOT)/../pjproject/pjmedia/lib\"",
+					"\"$(SRCROOT)/../pjproject/pjnath/lib\"",
+					"$(SRCROOT)/../pjproject/third_party/lib",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-I/Users/Sean/Downloads/wxWidgets-3.0.2/build-cocoa-mac/lib/wx/include/osx_cocoa-unicode-3.0",
+					"-I/Users/Sean/Downloads/wxWidgets-3.0.2/include",
+					"-D_FILE_OFFSET_BITS=64",
+					"-DWXUSINGDLL",
+					"-D__WXMAC__",
+					"-D__WXOSX__",
+					"-D__WXOSX_COCOA__",
+				);
+				OTHER_LDFLAGS = (
+					"-lpjsua2-x86_64-apple-darwin",
+					"-lpjsua-x86_64-apple-darwin",
+					"-lpjsip-ua-x86_64-apple-darwin",
+					"-lpjsip-simple-x86_64-apple-darwin",
+					"-lpjsip-x86_64-apple-darwin",
+					"-lpjmedia-codec-x86_64-apple-darwin",
+					"-lpjmedia-x86_64-apple-darwin",
+					"-lpjmedia-audiodev-x86_64-apple-darwin",
+					"-lpjnath-x86_64-apple-darwin",
+					"-lpjlib-util-x86_64-apple-darwin",
+					"-lresample-x86_64-apple-darwin",
+					"-lsrtp-x86_64-apple-darwin",
+					"-lgsmcodec-x86_64-apple-darwin",
+					"-lspeex-x86_64-apple-darwin",
+					"-lpj-x86_64-apple-darwin",
+					"-lilbccodec-x86_64-apple-darwin",
+					"-L/Users/Sean/Downloads/wxWidgets-3.0.2/build-cocoa-mac/lib",
+					"-framework",
+					IOKit,
+					"-framework",
+					Carbon,
+					"-framework",
+					Cocoa,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					System,
+					"-framework",
+					OpenGL,
+					"-lwx_osx_cocoau_adv-3.0",
+					"-lwx_osx_cocoau_core-3.0",
+					"-lwx_baseu_net-3.0",
+					"-lwx_baseu-3.0",
+					"-lwx_osx_cocoau_media-3.0",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		149DBFA61D61C07C00FEAC56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../pjproject/pjsip/include",
+					"\"$(SRCROOT)/../pjproject/pjlib/include\"",
+					"\"$(SRCROOT)/../pjproject/pjlib-util/include\"",
+					"\"$(SRCROOT)/../pjproject/pjmedia/include\"",
+					"\"$(SRCROOT)/../pjproject/pjnath/include\"",
+					"\"$(SRCROOT)/../pjproject/pjsip/include\"",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/../pjproject/pjsip/lib",
+					"\"$(SRCROOT)/../pjproject/pjlib/lib\"",
+					"\"$(SRCROOT)/../pjproject/pjlib-util/lib\"",
+					"\"$(SRCROOT)/../pjproject/pjmedia/lib\"",
+					"\"$(SRCROOT)/../pjproject/pjnath/lib\"",
+					"$(SRCROOT)/../pjproject/third_party/lib",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-I/Users/Sean/Downloads/wxWidgets-3.0.2/build-cocoa-mac/lib/wx/include/osx_cocoa-unicode-3.0",
+					"-I/Users/Sean/Downloads/wxWidgets-3.0.2/include",
+					"-D_FILE_OFFSET_BITS=64",
+					"-DWXUSINGDLL",
+					"-D__WXMAC__",
+					"-D__WXOSX__",
+					"-D__WXOSX_COCOA__",
+				);
+				OTHER_LDFLAGS = (
+					"-lpjsua2-x86_64-apple-darwin",
+					"-lpjsua-x86_64-apple-darwin",
+					"-lpjsip-ua-x86_64-apple-darwin",
+					"-lpjsip-simple-x86_64-apple-darwin",
+					"-lpjsip-x86_64-apple-darwin",
+					"-lpjmedia-codec-x86_64-apple-darwin",
+					"-lpjmedia-x86_64-apple-darwin",
+					"-lpjmedia-audiodev-x86_64-apple-darwin",
+					"-lpjnath-x86_64-apple-darwin",
+					"-lpjlib-util-x86_64-apple-darwin",
+					"-lresample-x86_64-apple-darwin",
+					"-lsrtp-x86_64-apple-darwin",
+					"-lgsmcodec-x86_64-apple-darwin",
+					"-lspeex-x86_64-apple-darwin",
+					"-lpj-x86_64-apple-darwin",
+					"-lilbccodec-x86_64-apple-darwin",
+					"-L/Users/Sean/Downloads/wxWidgets-3.0.2/build-cocoa-mac/lib",
+					"-framework",
+					IOKit,
+					"-framework",
+					Carbon,
+					"-framework",
+					Cocoa,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					System,
+					"-framework",
+					OpenGL,
+					"-lwx_osx_cocoau_adv-3.0",
+					"-lwx_osx_cocoau_core-3.0",
+					"-lwx_baseu_net-3.0",
+					"-lwx_baseu-3.0",
+					"-lwx_osx_cocoau_media-3.0",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		149DBF981D61C07C00FEAC56 /* Build configuration list for PBXProject "PJDev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				149DBFA21D61C07C00FEAC56 /* Debug */,
+				149DBFA31D61C07C00FEAC56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		149DBFA41D61C07C00FEAC56 /* Build configuration list for PBXNativeTarget "PJDev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				149DBFA51D61C07C00FEAC56 /* Debug */,
+				149DBFA61D61C07C00FEAC56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 149DBF951D61C07C00FEAC56 /* Project object */;
+}
